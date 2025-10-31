@@ -209,7 +209,7 @@ Classification Report:
 ```
 diabetes-prediction/
 │
-├── aap.py                    # Main Streamlit application
+├── app.py                    # Main Streamlit application
 ├── diabetes.csv               # Training dataset
 ├── diabetes_model.pkl         # Trained SVM model
 ├── Diabetes_Prediction.ipynb  # Jupyter notebook for model development
@@ -338,9 +338,10 @@ Any health-related information provided by this application should be verified w
 <div align="center">
 
 **Made with ❤️ for Healthcare Innovation**
-
+**Author Ayush Kumar Maurya**
 ![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-red.svg) ![Python](https://img.shields.io/badge/Powered%20by-Python-blue.svg) ![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-orange.svg)
 
 © 2024 Diabetes Prediction System | All Rights Reserved
+
 
 </div>
