@@ -278,7 +278,7 @@ def load_model():
         return None
 
 # Load dataset for statistics
-@st.cache_data
+@st.cache_resource
 def load_data():
     try:
         df = pd.read_csv('diabetes.csv')
@@ -302,7 +302,7 @@ df = load_data()
 # Sidebar
 with st.sidebar:
     st.markdown("### 📊 Navigation")
-    page = st.radio("", ["🔮 Prediction", "📈 Analytics", "ℹ️ About"])
+    page = st.radio("Select Page", ["🔮 Prediction", "📈 Analytics", "ℹ️ About"], label_visibility="collapsed")
     
     st.markdown("---")
     
